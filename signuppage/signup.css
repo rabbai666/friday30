@@ -1,0 +1,112 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color:lightpink;
+}
+	.mainsec {
+		background-color:pink;
+	    margin:8em 7em 1em 7em;	
+		padding:20px 10px 10px 10px;
+		
+	}
+	
+.sect {
+	margin:10%;
+		background-color:lightblue;
+		border-radius:10px;
+		padding: 10px;
+     }	
+#secbord {
+	  text-align: center;
+	  width:50%;
+}
+
+#forms  {
+	border-left: 2px solid pink;
+	text-align: center;
+	 width:50%;
+	  margin:0;
+}
+			
+			
+.flex-container {
+				display: flex;
+                 justify-content: center;
+				 }
+				
+#hold { 
+			border-radius:50%;
+	         width:100px;
+			height:100px;
+			display:block;
+			margin-left:auto;
+			margin-right:auto;
+			margin-top:10px;
+			padding:2px 0px 2px 0px;
+			}
+			
+#imageh2 {
+			text-align:center;
+			display:block;
+			color:white;
+			font-size:16px;
+			
+			padding:2px 0px 2px 0px;
+			
+	        }
+#imagep { 
+			color:white;
+			font-size:14px;
+			font-family:Comic Sans Ms;
+			}
+			
+input[type=email] {
+  width: 50%;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid grey;
+  background-color:lightblue;
+  
+}
+input[type=password] {
+  width: 50%;
+  padding-bottom: 10px;
+ 
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid grey;
+  background-color:lightblue;
+}
+.email-form input[type='email']:focus, .password-form input[type='password']:focus{
+	outline:0;
+	width: 80%;
+}
+.email-form input[type='email']:active, .password-form input[type='password']:active{
+	border-bottom: 2px solid red;
+}
+.password-form input[type='email']:focus, .password-form input[type='password']:focus{
+	outline:0;
+	width: 80%;
+}
+.password-form input[type='email']:active, .password-form input[type='password']:active{
+	border-bottom: 2px solid red;
+}
+
+.button {
+  background-color: white; /* Green */
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1:hover {
+  background-color: pink;
+  color: white;
+}
